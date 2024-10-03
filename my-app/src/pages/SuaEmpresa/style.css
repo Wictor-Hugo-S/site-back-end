@@ -1,0 +1,424 @@
+.conteudo-sua-empresa {
+
+
+    background-image: linear-gradient(180deg, #fb2f3f 25%, #7e000b 100%);
+    width: 100%;
+    height: auto;
+
+}
+
+.container-conteudo-sua-empresa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+.title-conteudo-sua-empresa {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.title-conteudo-sua-empresa h1 {
+
+    font-weight: bold;
+    font-family: "Roboto", Montserrat;
+    color: #0000;
+    margin-bottom: -15px;
+
+    text-shadow:
+        -1px -1px 0 #0c2633,
+        /* sombra superior esquerda */
+        1px -1px 0 #0c2633,
+        /* sombra superior direita */
+        -1px 1px 0 #0c2633,
+        /* sombra inferior esquerda */
+        1px 1px 0 #0c2633;
+    /* sombra inferior direita */
+
+
+    font-family: Helvetica;
+    color: white;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.title-conteudo-sua-empresa span {
+    font-size: 45px;
+    color: #041e2b;
+    font-family: "Roboto", Montserrat;
+    font-weight: 600;
+    margin-bottom: 70px;
+    padding-left: 120px;
+    text-transform: uppercase;
+}
+
+.wrapper-conteudo-sua-empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0 50px;
+    padding: 0 4%;
+
+
+
+
+}
+
+.boxes-sua-empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px 0;
+
+
+
+}
+
+.box-conteudo-sua-empresa {
+    width: 100%;
+    height: 100%;
+    max-width: 490px;
+    border-radius: 20px 20px 20px 20px;
+    gap: 0 30px;
+    color: white;
+    background-image: linear-gradient(to right, #041e2b 5%, #002e44 90%);
+    border: none;
+
+
+
+    padding: 28px 15px 28px 25px;
+
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out .4s;
+
+
+}
+
+.icon-box-sua-empresa {
+    font-size: 45px;
+}
+
+.title-box-sua-empresa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.title-box-sua-empresa span {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+
+
+}
+
+.title-box-sua-empresa span {
+    width: 100%;
+    font-size: 19px;
+}
+
+.description-box-sua-empresa p {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+
+
+
+.imagem-conteudo-sua-empresa {
+
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -4px;
+
+
+}
+
+
+.imagem-conteudo-sua-empresa img {
+    width: 100%;
+    height: 700px;
+
+
+
+}
+
+
+.button-especialista {
+    text-align: center;
+
+}
+
+.button-especialista button {
+    border: none;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #cccccc 5%, rgb(238, 238, 238) 90%);
+    /* background-image: linear-gradient(to right, #041e2b 5%, #002e44 90%); */
+    color: #041e2b;
+    padding: 13px 40px;
+    gap: 5px;
+    transition: ease-in-out .4s;
+
+
+}
+
+
+.box-conteudo-sua-empresa:hover {
+    transform: scale(1.1);
+
+}
+
+.button-especialista button:hover {
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width :840px) {
+
+
+    .wrapper-conteudo-sua-empresa {
+
+        gap: 0 50px;
+        padding: 0 3%;
+
+
+    }
+
+    .box-conteudo-sua-empresa {
+        width: 100%;
+        height: 100%;
+        max-width: 450px;
+        border-radius: 20px 20px 20px 20px;
+        gap: 0 30px;
+        color: white;
+        background-image: linear-gradient(to right, #041e2b 5%, #002e44 90%);
+        border: none;
+        padding: 25px 15px 25px 15px;
+
+    }
+
+    .icon-box-sua-empresa {
+        font-size: 38px;
+    }
+
+    .title-box-sua-empresa span {
+        font-size: 17px;
+
+    }
+
+    .description-box-sua-empresa p {
+
+        font-size: 17px;
+
+    }
+
+
+}
+
+.button-especialista button {
+
+    font-size: 16px;
+    padding: 13px 32px;
+
+}
+
+
+@media screen and (max-width :768px) {
+
+
+    .wrapper-conteudo-sua-empresa {
+
+        gap: 0 50px;
+        padding: 0 8%;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .title-conteudo-sua-empresa {
+        text-align: center;
+        margin-bottom: 17px;
+        padding-top: 50px;
+    }
+
+    .title-conteudo-sua-empresa h1 {
+
+        font-size: 70px;
+        text-shadow:
+            -2px -2px 0 #0c2633,
+            /* sombra superior esquerda */
+            2px -2px 0 #0c2633,
+            /* sombra superior direita */
+            -2px 2px 0 #0c2633,
+            /* sombra inferior esquerda */
+            2px 2px 0 #0c2633;
+        /* sombra inferior direita */
+
+    }
+
+    .title-conteudo-sua-empresa span {
+        font-size: 35px;
+        color: #041e2b;
+
+        margin-bottom: 70px;
+        padding-left: 120px;
+
+    }
+
+
+
+
+    .boxes-sua-empresa {
+
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .box-conteudo-sua-empresa {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px 0;
+
+    }
+
+
+    .imagem-conteudo-sua-empresa {
+        margin-top: 40px;
+    }
+
+
+    .imagem-conteudo-sua-empresa img {
+        width: 440px;
+        max-width: 100%;
+        height: 385px;
+        
+        border-radius: 3%;
+
+
+    }
+
+
+
+
+    .button-especialista {
+        padding-top: 20px;
+        text-align: center;
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width : 468px) {
+
+    .title-conteudo-sua-empresa h1 {
+
+        margin-bottom: -10px;
+
+    }
+
+    .title-conteudo-sua-empresa h1 {
+
+
+
+
+        font-size: 60px;
+
+    }
+
+    .title-conteudo-sua-empresa span {
+        font-size: 28px;
+        color: #041e2b;
+
+        margin-bottom: 70px;
+        padding-left: 120px;
+
+    }
+
+    .title-box-sua-empresa span {
+        width: 100%;
+        font-size: 19px;
+    }
+
+
+    .wrapper-conteudo-sua-empresa {
+
+        width: 100%;
+        gap: 0 50px;
+        padding: 0 8%;
+    }
+
+
+
+    .box-conteudo-sua-empresa {
+        width: 300px;
+        height: 100%;
+        max-width: 100%;
+        border-radius: 20px 20px 20px 20px;
+        gap: 10px 30px;
+
+
+        padding: 28px 25px;
+
+    }
+
+    .icon-box-sua-empresa {
+        font-size: 35px;
+    }
+
+    .title-box-sua-empresa span {
+        font-size: 18px;
+    }
+
+    .description-box-sua-empresa p {
+        width: 100%;
+       
+        letter-spacing: 0;
+        font-size: 15px;
+        font-family: 'Roboto';
+    }
+
+
+
+    .imagem-conteudo-sua-empresa img {
+        
+        width: 290px;
+        max-width: 100%;
+        height: 270px;
+    }
+
+
+    .button-especialista {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .button-especialista button {
+        font-size: 15px;
+        padding: 10px 23px;
+
+
+    }
+
+
+
+}

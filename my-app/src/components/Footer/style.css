@@ -1,0 +1,131 @@
+.footer {
+    background-image: linear-gradient(to right, #fb2f3f 30%, #7e000b 90%);
+    width: 100%;
+    height: auto;
+    padding: 14px 0 14px 0px;
+  }
+
+.footer-container{
+  width: 100%;
+  max-width: 1400px;
+  padding-right: 2%;
+}
+
+.wrapper-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+   
+}
+/* .title-footer{
+   display: flex;
+   justify-content: space-between;
+} */
+.wrapper-footer span{
+    color: white;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: 500;
+}
+.wrapper-footer span:last-child a{
+    color: #002537 ;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.wrapper-footer span:last-child a:hover{
+
+}
+/* .wrapper-footer span:last-child::after{
+    content: "Wictor Hugo";
+    color: #002537 ;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: 600;
+    padding-left: 5px;
+    cursor: pointer;
+   
+} */
+
+
+
+@media screen and ( max-width : 768px){
+
+
+
+    
+
+    .wrapper-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: column;
+      
+        gap: 10px;
+    }
+    .wrapper-footer span{
+        text-align: center;
+
+    }
+    .wrapper-footer span:last-child{
+        padding-bottom: 10px;
+    }
+
+}
+@media screen and ( max-width : 468px){
+
+
+    .wrapper-footer span{
+        text-align: left;
+
+    }
+
+    .wrapper-footer span:first-child{
+        color: white;
+        font-size: 13px;
+        font-family: Verdana;
+        font-weight: 500;
+    }
+    .wrapper-footer span:last-child{
+        color: white;
+        font-size: 13px;
+        font-family: Verdana;
+        font-weight: 600;
+    
+    }
+
+    
+
+}
+
+@media screen and ( max-width : 388px){
+
+
+    .wrapper-footer span{
+        text-align: left;
+
+    }
+
+    .wrapper-footer span:first-child{
+        color: white;
+        font-size: 13px;
+        font-family: Verdana;
+        font-weight: 500;
+    }
+    .wrapper-footer span:last-child{
+        color: white;
+        font-size: 12px;
+        font-family: Verdana;
+        font-weight: 600;
+        margin-bottom: 35px;
+    
+    }
+
+    
+
+}

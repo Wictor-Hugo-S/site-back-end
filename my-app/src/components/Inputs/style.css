@@ -1,0 +1,77 @@
+form{
+   width: 100%;
+}
+.container-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.box-inputs{
+    width: 100%;
+    
+    align-items: center;
+    display: flex;
+  }
+
+  .icon-cpf,.icon-senha{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 8px;
+    border: 1px solid #f90015;
+    background-color: #f90015;
+    border-radius: 6px 0px 0px 6px;
+  }
+.input-teste{
+  width: 100%;
+ 
+    
+}
+.input-field {
+ border: none;
+    border: 2px solid #f90015;
+    border-radius: 0px 6px 6px 0px;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    /* Adiciona um espaçamento entre os inputs */
+    transition: border-color 0.3s;
+    
+    
+}
+  
+  .input-field:focus {
+    border-color: #fb2f3f; /* Cor ao focar no input */
+    outline: none; /* Remove o contorno padrão do navegador */
+  }
+
+  form label{
+    font-size: 15px;
+    font-weight: 500;
+   
+  }
+  .login-button{
+    width: 100%;
+    margin: 0 auto;
+  }
+  button {
+    padding: 10px 25px;
+  
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: ease-in-out(0.5s);
+    background-color: #f90015;
+  }
+  
+  button:hover {
+   
+    transition: ease-in-out(0.5s);
+    background-color: #fe2436;
+   
+  }
+

@@ -1,0 +1,293 @@
+.contato {
+    padding-top: 30px;
+  background-color: white;
+    width: 100%;
+    height: auto;
+    padding-right: 2%;
+    padding-bottom: 50px;
+}
+
+.container-contato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+.wrapper-contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.logo-contato {
+    padding-right: 2%;
+
+
+}
+
+.logo-contato img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+
+}
+
+.lista-contatos {
+    display: flex;
+
+    gap: 0 60px;
+    color: red;
+
+
+}
+
+.lista-contatos ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px 10px;
+    color: red;
+
+
+}
+
+.lista-contatos li {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #003047 !important;
+    font-weight: 600 !important;
+    
+
+
+}
+
+.lista-contatos a {
+ 
+    cursor: pointer;
+    color: #003047 !important;
+    text-decoration: none;
+    font-weight: 600 !important;
+
+}
+
+.lista-contatos ul:last-child {
+    padding-top: 35px;
+}
+
+.teste-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+    
+}
+
+.button-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px 0;
+    
+}
+
+.button-contato button {
+    
+    font-size: 16px;
+    background-image: linear-gradient(to right, #003047 5%, #001722 90%);
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 40px 15px 40px;
+    transition: ease-in-out .4s;
+    width: 100%;
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    /* background-image: linear-gradient(90deg, #0c2633 0%, #041e2b 100%); */
+    /*   background-image: linear-gradient(180deg, #fb2f3f 0%, #7e000b 100% */
+}
+
+.lista-contatos ul :hover {
+    color: #003047 !important;
+}
+
+.lista-contatos li a:hover {
+    color: #fb2f3f !important;
+    
+}
+
+
+ .button-contato button:hover {
+
+    transform: scale(1.1) !important;
+    color: #fb2f3f;
+    transition: ease-in-out .6s;
+
+}
+
+@media screen and (max-width : 1155px) {
+
+    .wrapper-contato {
+        width: 100%;
+    }
+
+    .logo-contato img {
+
+        width: 100%;
+        padding: 0 5%;
+
+    }
+
+    .lista-contatos {
+        width: 80%;
+    }
+
+    .lista-contatos a {
+        font-size: 18px;
+    }
+
+
+
+    .teste-botao {
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width: 910px) {
+    .teste-botao {
+        width: 60%;
+        font-size: 14px;
+
+    }
+
+    .button-contato button {
+        font-size: 14px;
+        padding: 15px 30px 15px 30px;
+    }
+
+    .lista-contatos li {
+        font-size: 14px;
+        font-family: 'Roboto';
+        font-weight: 600;
+
+
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width : 768px) {
+
+    .wrapper-contato {
+        display: block;
+        flex-direction: column;
+        gap: 30px 0;
+
+    }
+
+    .logo-contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-contato img {
+        width: 70%;
+        height: auto;
+        object-fit: contain;
+
+    }
+
+    .lista-contatos ul {
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .lista-contatos {
+        flex-direction: column;
+
+    }
+
+
+    .teste-botao {
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .button-contato button {
+       
+        width: 350px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width : 468px) {
+
+    .wrapper-contato {
+        display: block;
+        flex-direction: column;
+        gap: 30px 0;
+
+    }
+
+    .logo-contato {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-contato img {
+        width: 70%;
+        height: auto;
+        object-fit: contain;
+
+
+    }
+
+    .lista-contatos ul {
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .lista-contatos ul:last-child {
+        margin-bottom: 15px;
+
+    }
+
+    .lista-contatos {
+        flex-direction: column;
+
+    }
+
+    .teste-botao {
+
+        width: 100%;
+
+    }
+
+    .button-contato button {
+        width: 250px;
+    }
+
+
+}

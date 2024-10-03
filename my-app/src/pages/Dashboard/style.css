@@ -1,0 +1,111 @@
+.container-dashboard {
+    width: 100%;
+
+}
+
+.flex-dashboard {
+    width: 100%;
+    height: 740px;
+    display: flex;
+   
+}
+
+.config-dashboard {
+    width: 20%;
+    padding-top: 20px;
+    background-color: whitesmoke;
+   
+}
+
+.info-dashboard {
+    width: 80%;
+    background-image: linear-gradient(180deg, #fb2f3f 0%, #c71a28 100%);
+}
+
+
+.box-dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+    padding-top: 10px;
+
+}
+.logo-dashboard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-dashboard h1 {
+
+    font-weight: bold;
+    font-family: "Roboto", Montserrat;
+    color: #0000;
+
+
+
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0c2633;
+    font-family: Helvetica;
+
+    font-size: 30px;
+
+
+}
+
+.logo-dashboard img {
+
+    object-fit: contain;
+    height: 60px;
+}
+
+.aside-dashboard {
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 25px 50px;
+
+
+}
+
+.aside-dashboard .asides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    color: #0c2633 !important;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+.box-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.foto-profile{
+    border: 1px solid #0000;
+ 
+}
+.foto-profile img {
+    
+    height: 40px;
+   object-fit: contain;
+    border-radius: 100%;
+}

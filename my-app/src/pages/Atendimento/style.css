@@ -1,0 +1,381 @@
+.midia-sociais {
+    background-image: linear-gradient(180deg, #fb2f3f 0%, #7e000b 100%);
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.container-midia-sociais {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper-midia-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px 0;
+
+
+
+}
+
+.title-midia-sociais {
+    text-align: center;
+}
+
+
+.title-midia-sociais h1 {
+
+    font-weight: bold;
+    font-family: "Roboto", Montserrat;
+    color: #0000;
+    /* -webkit-text-stroke: 4px #FFF; */
+    margin-bottom: -15px;
+
+
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #0c2633; */
+
+    text-shadow:
+        -2px -2px 0 #0c2633,
+        /* sombra superior esquerda */
+        2px -2px 0 #0c2633,
+        /* sombra superior direita */
+        -2px 2px 0 #0c2633,
+        /* sombra inferior esquerda */
+        2px 2px 0 #0c2633;
+    /* sombra inferior direita */
+
+    font-family: Helvetica;
+    color: white;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.title-midia-sociais span {
+    font-size: 45px;
+    color: #041e2b;
+    font-family: "Roboto", Montserrat;
+    font-weight: 600;
+    margin-bottom: 70px;
+    padding-left: 120px;
+    text-transform: uppercase;
+}
+
+.icons-midia-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 50px;
+
+
+
+}
+
+
+.box-midia-sociais {
+    border: none;
+    background-color: #041e2b;
+    padding: 18px 18px;
+    font-size: 60px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out .4s;
+    cursor: pointer;
+}
+
+.box-midia-sociais a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-midia-sociais .box-midia-sociais:hover {
+    transform: scale(1.1);
+
+}
+
+
+@media screen and (max-width :650px) {
+
+
+
+    .title-midia-sociais h1 {
+
+        font-size: 60px;
+
+    }
+
+    .title-midia-sociais span {
+        font-size: 35px;
+        color: #041e2b;
+        margin-bottom: 60px;
+        padding-left: 120px;
+
+    }
+
+    .icons-midia-sociais {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px 18px;
+
+
+
+    }
+
+    .box-midia-sociais {
+
+        padding: 15px 15px;
+        font-size: 40px;
+
+
+    }
+}
+
+
+
+
+
+/* LOCALIZACAO */
+
+
+section.nossa-localizacao {
+    background-image: linear-gradient(180deg, rgb(248, 246, 246) 2%, #eae9e9 40%);
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+
+}
+
+.container-nossa-localizacao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title-nossa-localizacao {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title-nossa-localizacao h1 {
+    font-size: 70px;
+    font-weight: bold;
+
+
+    /* -webkit-text-stroke: 8px #0c2633; */
+
+    /* -webkit-text-stroke: 4px #FFF; */
+    /* text-shadow:#000 -1px -1px; */
+
+
+
+    text-shadow:
+        -1px -1px 0 #ab000e,
+        /* sombra superior esquerda */
+        1px -1px 0 #ab000e,
+        /* sombra superior direita */
+        -1px 1px 0 #ab000e,
+        /* sombra inferior esquerda */
+        1px 1px 0 #ab000e;
+    /* sombra inferior direita */
+
+    font-family: Helvetica;
+    color: #FFF;
+}
+
+
+.title-nossa-localizacao h1:last-child {
+    font-size: 50px;
+    font-weight: bold;
+
+
+    text-shadow:
+        -1px -1px 0 #ab000e,
+        /* sombra superior esquerda */
+        1px -1px 0 #ab000e,
+        /* sombra superior direita */
+        -1px 1px 0 #ab000e,
+        /* sombra inferior esquerda */
+        1px 1px 0 #ab000e;
+    /* sombra inferior direita */
+
+    font-family: Helvetica;
+    color: #FFF;
+}
+
+
+.wrapper-nossa-localizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 50px;
+    padding: 0 4%;
+    width: 100%;
+}
+
+
+.boxes-wrapper-nossa-localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px 0;
+
+
+}
+
+.boxes-nossa-localizacao {
+
+    background-image: linear-gradient(to right, #041e2b 5%, #002e44 90%);
+
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    border-radius: 20px 20px 20px 20px;
+
+    color: white;
+    /* 
+    background-image: linear-gradient(180deg, #fb2f3f 0%, #7e000b 100%); */
+    border: none;
+
+
+    padding: 15px 50px 15px 50px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    transition: ease-in-out .4s;
+
+}
+
+.descricao-nossa-localizacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.boxes-nossa-localizacao h1 {
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 500;
+
+}
+
+.descricao-nossa-localizacao span {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+@media screen and (max-width: 931px) {
+
+
+
+
+    .boxes-nossa-localizacao {
+
+        width: 100%;
+        height: 100%;
+        max-width: 450px;
+        padding: 28px 40px 28px 40px;
+
+
+        margin-bottom: 30px;
+    }
+
+
+    .boxes-nossa-localizacao h1 {
+        font-size: 20px;
+
+    }
+
+    .descricao-nossa-localizacao span {
+
+
+        font-size: 14px;
+
+    }
+
+}
+
+@media screen and (max-width :768px) {
+    .wrapper-nossa-localizacao {
+        gap: 50px 0;
+        flex-direction: column;
+        padding: 0 4%;
+    }
+
+
+    .boxes-wrapper-nossa-localizacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .boxes-nossa-localizacao {
+
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        padding: 28px 40px 28px 40px;
+        margin-bottom: 30px;
+    }
+
+
+    .title-nossa-localizacao h1 {
+        font-size: 60px;
+
+    }
+
+
+    .title-nossa-localizacao h1:last-child {
+        font-size:40px;
+
+    }
+
+
+
+    .boxes-nossa-localizacao h1 {
+        font-size: 25px;
+
+    }
+
+    .descricao-nossa-localizacao span {
+
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width :538px) {
+
+    .boxes-nossa-localizacao {
+
+        width: 100%;
+        height: 100%;
+        max-width: 350px;
+
+        padding: 28px 25px 28px 25px;
+
+    }
+
+}

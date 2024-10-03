@@ -1,0 +1,785 @@
+section.conteudo-sobre {
+
+    background-image: linear-gradient(180deg, rgb(248, 246, 246) 2%, #eae9e9 40%);
+    width: 100%;
+    padding: 50px 0;
+    height: auto;
+}
+
+section.conteudo-sobre .container-conteudo-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+section.conteudo-sobre .wrapper-conteudo-sobre {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 50px;
+    width: 80%;
+
+}
+
+section.conteudo-sobre .title-conteudo-sobre {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+section.conteudo-sobre .title-conteudo-sobre h1 {
+
+    font-size: 90px;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ab000e; */
+
+
+
+    text-shadow:
+        -1px -1px 0 #ab000e,
+        /* sombra superior esquerda */
+        1px -1px 0 #ab000e,
+        /* sombra superior direita */
+        -1px 1px 0 #ab000e,
+        /* sombra inferior esquerda */
+        1px 1px 0 #ab000e;
+    /* sombra inferior direita */
+
+
+    font-family: Helvetica;
+    color: #FFF;
+
+
+}
+
+section.conteudo-sobre .title-conteudo-sobre span {
+
+
+    font-size: 50px;
+    /* color: #fb2f3f #7e000b; */
+    color: red;
+    font-family: "Roboto", Montserrat;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.description-conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+section.conteudo-sobre .title-conteudo-sobre p {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto";
+    letter-spacing: 0.1px;
+    text-align: justify;
+
+
+}
+
+.img-conteudo-sobre {
+
+    width: 100%;
+    /* Defina a largura desejada em relação à largura da janela */
+    /* Define um tamanho máximo para a imagem */
+    height: 550px;
+    /* A altura será ajustada automaticamente para manter a proporção de aspecto */
+
+  
+    max-width: 650px;
+    max-height: 500px;
+
+
+    width: 140%;
+    /* Defina a largura desejada em relação à largura da janela */
+    /* Define um tamanho máximo para a imagem */
+    height: 520px;
+    /* A altura será ajustada automaticamente para manter a proporção de aspecto */
+
+
+    max-width: 550px;
+    max-height: 950px;
+
+}
+
+.img-conteudo-sobre img {
+
+    height: 100%;
+    width: 100%;
+
+    /* A imagem ocupará todo o espaço disponível dentro do contêiner */
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: none;
+
+
+}
+
+
+
+
+
+
+/* Nossa MIssão */
+
+
+section.nossa-missao {
+
+    background-image: linear-gradient(180deg, #fb2f3f 0%, #7e000b 100%);
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+
+}
+
+section.nossa-missao .container-missao {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+
+}
+
+section.nossa-missao .container-missao .wrapper-missao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 50px;
+    width: 80%;
+
+
+
+}
+
+/*  */
+
+
+section.nossa-missao .container-missao .wrapper-missao .imagem-missao {
+
+
+    width: 100%;
+    /* Defina a largura desejada em relação à largura da janela */
+    /* Define um tamanho máximo para a imagem */
+    height: 550px;
+    /* A altura será ajustada automaticamente para manter a proporção de aspecto */
+
+
+    max-width: 550px;
+    max-height: 950px;
+
+}
+
+section.nossa-missao .container-missao .wrapper-missao .imagem-missao img {
+
+    height: 100%;
+    width: 100%;
+
+    /* A imagem ocupará todo o espaço disponível dentro do contêiner */
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: none;
+
+
+
+
+}
+
+
+
+/* 
+section.nossa-missao .container-missao .wrapper-missao .imagem-missao img {
+
+
+    object-fit: contain;
+    height: 550px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: none;
+
+} */
+
+.title-missao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.teste-missao {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.teste-missao h1 {
+
+    font-size: 70px;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0c2633; */
+
+    text-shadow:
+        -1px -1px 0 #0c2633,
+        /* sombra superior esquerda */
+        1px -1px 0 #0c2633,
+        /* sombra superior direita */
+        -1px 1px 0 #0c2633,
+        /* sombra inferior esquerda */
+        1px 1px 0 #0c2633;
+    /* sombra inferior direita */
+
+
+    font-family: Helvetica;
+    color: #FFF;
+
+
+
+}
+
+.teste-missao span {
+
+    font-size: 70px;
+    /* -webkit-text-stroke-width: 70px; */
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0c2633; */
+
+
+    text-shadow:
+        -1px -1px 0 #0c2633,
+        /* sombra superior esquerda */
+        1px -1px 0 #0c2633,
+        /* sombra superior direita */
+        -1px 1px 0 #0c2633,
+        /* sombra inferior esquerda */
+        1px 1px 0 #0c2633;
+    /* sombra inferior direita */
+    font-family: Helvetica;
+    color: #FFF;
+    margin-top: -10px;
+    padding-bottom: 30px;
+
+
+
+}
+
+
+
+.descricao-missao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+section.nossa-missao .container-missao .wrapper-missao .descricao-missao p {
+
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto";
+    letter-spacing: 0.1px;
+    color: white;
+
+
+
+}
+
+.sub-descicao-missao {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sub-descicao-missao span {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.sub-descicao-missao p {
+    width: 100%;
+    letter-spacing: 0.2px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .img-conteudo-sobre {
+        width: 100%;
+        height: 100%;
+        max-height: 650px;
+        padding: 0 2%;
+    }
+
+    .img-conteudo-sobre img {}
+
+
+    section.conteudo-sobre .wrapper-conteudo-sobre {
+
+        gap: 0px 20px;
+        width: 100%;
+
+
+    }
+    
+section.conteudo-sobre .title-conteudo-sobre p {
+    width: 80%;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto";
+    letter-spacing: 0.1px;
+    text-align: justify;
+
+
+}
+
+
+
+    /* nossa missao */
+
+
+    section.nossa-missao .container-missao .wrapper-missao {
+        width: 100%;
+        gap: 50px 20px;
+    }
+
+
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao {
+        width: 100%;
+        height: 100%;
+            /* A altura será ajustada automaticamente para manter a proporção de aspecto */
+        
+        margin: 0 auto;
+        max-height: 750px;
+
+
+        padding: 0 2%;
+    }
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao img {
+
+        height: 100%;
+        width: 100%;
+
+        /* A imagem ocupará todo o espaço disponível dentro do contêiner */
+        margin-bottom: 50px;
+        border-radius: 30px;
+        border: none;
+
+
+
+
+    }
+
+    .title-missao {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .descricao-missao {
+        width: 100%;
+    }
+
+
+
+    section.conteudo-sobre .title-conteudo-sobre h1,
+    .teste-missao h1  {
+
+        font-size: 75px;
+    }
+    .teste-missao span{
+        font-size: 75px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    section.conteudo-sobre .wrapper-conteudo-sobre {
+
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+
+    section.conteudo-sobre .title-conteudo-sobre {
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0;
+
+    }
+
+
+
+    section.conteudo-sobre .title-conteudo-sobre h1 {
+        margin-top: 50px;
+        font-size: 70px;
+    }
+
+
+    section.conteudo-sobre .title-conteudo-sobre span {
+
+        font-size: 40px;
+
+    }
+
+
+
+    section.conteudo-sobre .title-conteudo-sobre p {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 500;
+        width: 80%;
+
+
+    }
+
+
+    .img-conteudo-sobre {
+
+        width: 100%;
+        height: 100%
+            /* A altura será ajustada automaticamente para manter a proporção de aspecto */
+        ;
+        margin: 0 auto;
+        max-height: 650px;
+        max-width: 100%;
+
+        padding-left: 2%;
+    }
+
+    .img-conteudo-sobre img {
+
+        height: 100%;
+        width: 100%;
+
+
+        text-align: center;
+        margin-bottom: 0;
+        border-radius: 30px;
+        border: none;
+
+    }
+
+
+
+
+
+
+
+    /*  NOSSA MISSAO */
+
+
+    section.nossa-missao .container-missao .wrapper-missao {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao {
+
+        /* A altura será ajustada automaticamente para manter a proporção de aspecto */
+        margin: 0 auto;
+        max-height: 800px;
+        max-width: 100%;
+        padding-left: 2%;
+
+    }
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 30px;
+        border: none;
+
+    }
+
+
+    .teste-missao h1 {
+        margin-top: 50px;
+        font-size: 70px;
+    }
+
+    .teste-missao span {
+
+        font-size: 65px;
+
+
+    }
+
+
+
+    section.nossa-missao .container-missao .title-missao {
+        font-size: 15px;
+        width: 100%;
+
+    }
+
+
+
+    .descricao-missao {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+    }
+
+    .sub-descicao-missao {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .sub-descicao-missao span {
+        color: white;
+        font-weight: bold;
+
+    }
+
+
+    .sub-descicao-missao p {
+        width: 100%;
+        letter-spacing: 0.2px;
+        font-size: 13px;
+        margin-top: 5px;
+
+    }
+
+
+
+    .sub-descicao-missao:first-of-type {
+
+        font-size: 13px;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 570px) {
+
+    .img-conteudo-sobre {
+
+
+        /* Defina a largura desejada em relação à largura da janela */
+        /* Define um tamanho máximo para a imagem */
+
+        /* A altura será ajustada automaticamente para manter a proporção de aspecto */
+        /* width: auto;
+        height: auto;
+        margin: 0 auto;
+        
+        max-height: 550px; */
+        max-width: 500px;
+        padding: 0 4%;
+    }
+
+
+
+
+    .img-conteudo-sobre img {
+        /* 
+        height: auto;
+        width: 300px;
+
+        margin-bottom: 50px;
+        border-radius: 30px;
+        border: none; */
+        padding-left: 0;
+       
+
+
+    }
+
+    section.conteudo-sobre .title-conteudo-sobre h1 {
+
+        font-size: 50px;
+        margin-bottom: 8px;
+
+
+
+    }
+
+    section.conteudo-sobre .title-conteudo-sobre span {
+
+
+        font-size: 25px;
+
+    }
+
+
+    section.conteudo-sobre .title-conteudo-sobre p {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 500;
+        max-width: 300px;
+
+    }
+
+
+
+
+
+
+    /* Nossa missao */
+
+
+    section.nossa-missao .container-missao .wrapper-missao {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao {
+        max-width: 500px;
+
+        padding: 0 4%;
+
+    }
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao img {
+        
+    }
+
+    .teste-missao h1 {
+
+        font-size: 55px;
+        margin-top: 0;
+    }
+
+    .teste-missao span {
+
+        font-size: 65px;
+
+
+    }
+
+    .section.conteudo-sobre .descricao-missao p {
+        max-width: 300px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 388px) {
+
+    .img-conteudo-sobre {
+
+
+        max-width: 350px;
+        max-height: 250px;
+    }
+
+    .img-conteudo-sobre img {
+
+
+        width: 100%;
+     
+
+    }
+
+    section.conteudo-sobre .title-conteudo-sobre,
+    .title-missao {
+        width: 100%;
+
+
+
+    }
+
+    section.conteudo-sobre .description-conteudo-sobre {
+        width: 100%;
+        letter-spacing: 0.1px;
+
+    }
+
+
+
+    /*  NOSSA MISSAO */
+
+    section.nossa-missao .container-missao .wrapper-missao {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao {
+        max-height: 250px;
+        max-width: 350px;
+    }
+
+    section.nossa-missao .container-missao .wrapper-missao .imagem-missao img {
+
+        width: 100%;
+        height: 200px;
+
+
+
+    }
+
+    .descricao-missao {
+        width: 80%;
+        letter-spacing: 0.1px;
+    }
+
+
+
+}

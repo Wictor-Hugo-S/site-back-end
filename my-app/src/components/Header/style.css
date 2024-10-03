@@ -1,0 +1,209 @@
+.cabecalho {
+    background-color: #fb2f3f;
+    width: 100%;
+  padding: 7px;
+    height: 50px;
+
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    
+
+    
+
+
+}
+
+.container .texto-principal button,
+.descricao-header button,
+button {
+    font-size: 14px;
+   
+    color: white;
+    border-style: solid;
+  
+
+    border-radius: 20px 20px 20px 20px;
+    padding: 8px 20px 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #fb2f3f;
+    border: 1px solid white;
+
+}
+
+.texto-principal button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.texto-principal .texto-icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.icon-face,
+.icon-insta,
+.icon-whats {
+    color: white;
+   border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px 10px 9px 10px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+.icon a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.descricao-header {
+    display: flex;
+    gap: 15px;
+
+}
+
+.descricao-header a {
+
+    font-weight: 500;
+    text-transform: none;
+    color: white;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+
+.descricao-header :hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .4s;
+    color:rgb(0, 101, 148) ;
+   
+    /* background-image: linear-gradient(to right, #041e2b 5%, #002e44 90%); */
+
+}
+
+.icon a:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out .4s;
+    color:rgb(0, 101, 148) ;
+   
+}
+
+.texto-principal :hover {
+    transform: scale(1.1);
+    background-color: #54CF61 !important;
+    transition: all ease-in-out .4s;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+    .cabecalho {
+        height: 100%;
+        padding: 8px 0;
+
+    }
+
+    .container {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .container .texto-principal button,
+    .descricao-header button,
+    button {
+        font-size: 12px;
+        padding: 8px 15px 8px 15px;
+    }
+
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+
+
+    }
+
+    .icon-face,
+    .icon-insta,
+    .icon-whats {
+
+        border-radius: 50%;
+        padding: 8px 10px 9px 10px;
+    }
+
+
+    .descricao-header {
+        display: flex;
+        gap: 15px;
+
+    }
+
+    .descricao-header a {
+
+        font-size: 12px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .cabecalho {
+
+      display: none;
+
+    }
+
+    .container {
+        display: none;
+    }
+}

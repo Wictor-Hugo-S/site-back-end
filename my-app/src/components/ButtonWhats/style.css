@@ -1,0 +1,98 @@
+.container-button-whats {
+
+
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    z-index: 9999999;
+
+}
+
+.box-button {
+    border: none;
+    padding: 13px;
+    border-radius: 100%;
+    background-color: #25d366;
+
+    animation-duration: 2s ;
+    animation-timing-function: ease ;
+    animation-delay: 0s ;
+    animation-iteration-count: infinite ;
+    animation-direction: normal ;
+    animation-fill-mode: none ;
+    animation-play-state: running ;
+    animation-name: pulse ;
+
+    /* 
+    animation-duration: 2s !important;
+
+    animation-delay: 0s !important;
+    animation-iteration-count: infinite !important;
+    animation-direction: normal !important; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container-button-whats .icon-button-whats {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-button-whats {
+    font-size: 30px;
+
+}
+
+
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 53%);
+        transform: scale(1.05);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 63%);
+        transform: scale(1.1);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 73%);
+    }
+
+    70% {
+        transform: scale(1.2);
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+
+
+
+
+@media screen and (max-width : 458px) {
+
+    .container-button-whats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .box-button {
+        border: none;
+        padding: 12px;
+    }
+
+    .icon-button-whats {
+        font-size: 25px;
+    }
+}

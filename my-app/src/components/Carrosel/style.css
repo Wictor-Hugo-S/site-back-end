@@ -1,0 +1,452 @@
+.swiper-container {
+
+  width: 100%;
+  height: 600px;
+
+}
+
+.wrapper-imagem-fundo {}
+
+
+
+.slide-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+
+  position: absolute;
+
+
+}
+
+
+.texto-image {
+  width: auto;
+  padding: 140px 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.container-texto-image {
+  display: flex;
+
+  padding: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.container-texto-image .wrapper-texto-image {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.container-texto-image .sub-title-descricao {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-texto-image .button-texto-image-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.sub-title-descricao span {
+
+  font-size: 45px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ab000e #0c2633;
+  font-family: Helvetica;
+  color: #ab000e;
+
+
+}
+
+.icon-texto-1 {
+  display: flex;
+  align-items: center;
+  margin-left: -15px;
+
+
+}
+
+.icon-texto {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: white;
+}
+
+.icon-slide,
+.icon-slide-1 {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-texto-1 h1 {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Roboto", Montserrat;
+  /* -webkit-text-stroke: 8px #0c2633; */
+  /* -webkit-text-stroke: 4px #FFF; */
+  /* text-shadow:#000 -1px -1px; */
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ab000e; */
+
+
+
+  text-shadow:
+    -1px -1px 0 #ab000e,
+    /* sombra superior esquerda */
+    1px -1px 0 #ab000e,
+    /* sombra superior direita */
+    -1px 1px 0 #ab000e,
+    /* sombra inferior esquerda */
+    1px 1px 0 #ab000e;
+  /* sombra inferior direita */
+  font-family: Helvetica;
+  color: #FFF;
+
+
+}
+
+.icon-texto h1 {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Roboto", Montserrat;
+  /* -webkit-text-stroke: 8px #0c2633; */
+  /* -webkit-text-stroke: 4px #FFF; */
+  /* text-shadow:#000 -1px -1px; */
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ab000e; */
+
+
+  text-shadow:
+    -1px -1px 0 #ab000e,
+    /* sombra superior esquerda */
+    1px -1px 0 #ab000e,
+    /* sombra superior direita */
+    -1px 1px 0 #ab000e,
+    /* sombra inferior esquerda */
+    1px 1px 0 #ab000e;
+  /* sombra inferior direita */
+  font-family: Helvetica;
+  color: #FFF;
+}
+
+.button-texto-image-1,
+.wrapper-texto-image-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fibra,
+.assine-ja {
+  background-image: linear-gradient(to top, #0c2633 10%, #000a10 90%);
+  font-size: 15px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  z-index: 999;
+  transition: ease-in-out .4s;
+  padding: 10px 30px;
+
+
+}
+
+.descricao-image-fundo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999999;
+
+}
+
+.assine-ja:hover,
+.fibra:hover {
+  transform: scale(1.1);
+
+}
+
+
+/* imagem 2(meio)- slider */
+
+
+.texto-image-2 {
+  width: auto;
+  padding: 140px 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+
+.container-texto-image-2 {
+  display: flex;
+  align-content: flex-end;
+  padding: 50px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.container-texto-image-2 .wrapper-texto-image-2 {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.container-texto-image-2 .sub-title-descricao {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-texto-image-2 .button-texto-image-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.swiper-pagination>.swiper-pagination-bullet {
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  padding: 8px;
+  border-radius: 0;
+}
+
+.swiper-pagination>.swiper-pagination-bullet-active {
+  background-color: white;
+  opacity: 1;
+  padding: 8px;
+  border-radius: 0;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: white;
+}
+
+
+
+
+
+
+/*  reponsividade das imagens do slide */
+
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+
+    z-index: 0;
+    height: 400px;
+
+
+  }
+
+  .wrapper-capa {
+    height: 400px;
+
+  }
+
+  .slide-item img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .texto-image {
+
+    padding: 60px 30px;
+
+
+  }
+
+  .container-texto-image {
+
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+
+  .sub-title-descricao span {
+
+    font-size: 45px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ab000e #0c2633;
+    font-family: Helvetica;
+    color: #ab000e;
+
+  }
+
+  .icon-texto-1 {
+
+    margin-left: -5px;
+  }
+
+  .icon-texto {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+    color: white;
+  }
+
+  .icon-slide,
+  .icon-slide-1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-texto h1,
+  .icon-texto-1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Roboto", Montserrat;
+
+    /* -webkit-text-stroke: 8px #0c2633; */
+
+    /* -webkit-text-stroke: 4px #FFF; */
+    /* text-shadow:#000 -1px -1px; */
+
+    font-family: Helvetica;
+    color: #FFF;
+  }
+
+
+
+  /* image 2 */
+
+  .texto-image-2 {
+    width: 100%;
+    padding: 60px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+  }
+
+  .container-texto-image-2 {
+    display: flex;
+    align-content: center;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+  .swiper-pagination>.swiper-pagination-bullet {
+    display: none;
+  }
+
+  .swiper-pagination>.swiper-pagination-bullet-active {
+    display: none;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 536px) {
+  .swiper-container {
+
+    z-index: 0;
+    height: 300px;
+
+
+  }
+
+  .wrapper-capa {
+    height: 300px;
+
+  }
+
+  .slide-item img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+
+
+  }
+
+  .texto-image-2 {
+    width: auto;
+    padding: 14px 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .texto-image {
+    width: auto;
+    padding: 14px 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .sub-title-descricao span {
+    font-size: 27px;
+  }
+
+  .icon-slide,
+  .icon-slide-1 {
+    font-size: 30px;
+  }
+
+  .icon-texto h1,
+  .icon-texto-1 h1 {
+    font-size: 35px;
+  }
+
+
+  .container-texto-image-2,
+  .container-texto-image {
+    display: flex;
+    align-content: center;
+    padding-top: 75px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+  }
+
+  .fibra,
+  .assine-ja {
+    font-size: 13px;
+    padding: 11px 20px;
+
+  }
+
+
+
+
+
+
+}

@@ -1,0 +1,275 @@
+.menu {
+
+    width: 100%;
+  
+    position: absolute;
+    height: auto;
+    z-index: 99999999;
+    /* background-image: linear-gradient(to right, rgb(255, 255, 255) 90%, rgba(255, 255, 255, 0.961) 20%); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.1) 90%);
+    /* color:#fb2f3f; */
+
+}
+
+.menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    padding: 10px;
+    
+}
+
+.menu-mobile {
+    display: none;
+    cursor: pointer;
+    display: none;
+    gap: 20px;
+
+}
+
+.menu-mobile a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    z-index: 9999;
+    color: #0c2633;
+
+    transition: ease-in-out .4s;
+
+
+}
+
+.container-menu-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c2633;
+    width: auto;
+    height: auto;
+    position: fixed;
+   
+
+
+}
+
+.wrapper-menu-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px 0;
+    padding-top: 130px;
+    padding-bottom: 30px;
+
+
+}
+
+
+
+.logo-menu {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 9999;
+
+}
+
+.logo-menu img {
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+    z-index: 9999;
+
+
+
+}
+
+.menu .links {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.container-menu-mobile .links-mobile {
+
+    transition: ease-in-out .4s;
+
+}
+
+.menu .links a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    z-index: 9999;
+
+   
+    color: white;
+    transition: ease-in-out .4s;
+
+
+}
+
+.container-menu-mobile a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: ease-in-out .4s;
+    font-weight: bold;
+    z-index: 9999;
+    color: white;
+}
+
+.menu .links a:hover {
+    color:#f35c69;
+    /* #fb2f3f */
+   
+    font-family: Helvetica;
+}
+
+.container-menu-mobile .links-mobile a:hover{
+
+    color:#fb2f3f;
+}
+
+
+.button-assine {
+    z-index: 999;
+}
+
+.button-assine button {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: none;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+
+    border-width: 0px 0px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 28px 10px 28px;
+    transition: ease-in-out .4s;
+
+}
+
+.button-assine:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .4s;
+}
+
+a.active {
+    color: #fb2f3f!important;
+
+}
+a.links-mobile.active{
+    color:#fb2f3f !important;
+}
+.icon-close:hover{
+    background-color: #fb2f3f !important;
+    border-radius: 50% !important;
+    
+}
+.icon-menu-navegacao:hover{
+    background-color: ghostwhite !important;
+}
+
+
+
+
+@media screen and (max-width: 910px) {
+
+
+    .menu .links a {
+        font-size: 14px;
+    }
+
+    .button-assine button {
+        font-size: 12px;
+        font-size: 12px;
+        padding: 8px 15px 8px 15px;
+
+
+    }
+}
+
+@media screen and (max-width: 841px) {
+
+
+    .menu .links a {
+        font-size: 12px;
+    }
+
+    .button-assine button {
+        font-size: 12px;
+        font-size: 12px;
+        padding: 8px 15px 8px 15px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .menu {
+        position: fixed;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.1) 90%);
+
+    }
+
+    .menu-mobile {
+        display: block;
+
+    }
+
+    .container-menu-mobile {
+        position: sticky;
+
+    }
+
+    .logo-menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .logo-menu img {
+        width: 50%;
+        height: 100%;
+
+
+    }
+
+    .menu .links a {
+        display: none;
+    }
+
+    .button-assine {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .logo-menu {
+        width: 70%;
+
+    }
+    .logo-menu img {
+        width: 80%;
+        height: 100%;
+
+
+    }
+
+}
